@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+/***** Main Header *****/
+
+header{
+    background-image: url(../img/creative-headline-F10nTHkCiW8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#burgermenu{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: white;
+    font-size: 3rem;
+}
+.logodiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logodiv img {
+    height: 35rem;
+    width: 35rem;
+    color: white;
+}
+
+/***** Bowl Row *****/
+
+.bowlwrapper, .drinkwrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 600px;
+    width: 100%;
+    font-family: acier-bat-noir, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.bowl-logodiv, .drink-logodiv{
+    background-image: url(../img/bowl\ img.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.drink-logodiv{
+    background-image: url(../img/drinkimg.png);
+}
+
+.bowl-logodiv img, .drink-logodiv img {
+    width: 12rem;
+    height: 12rem;
+}
+
+#menulogo,#burritolog,#drinklogo{
+    width: 12rem;
+    height: 12rem;
+    display: none;
+}
+
+.bowlimage-div, .drinkimage-div{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #bed78a;
+    cursor: pointer;
+}
+
+.drinkimage-div{
+    background: #f49f9f;
+}
+
+/***** Burrito Row *****/
+
+.burritowrapper{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 100%;
+    font-family: acier-bat-noir, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.burrito-logodiv{
+    background-image: url(../img/footerimg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.burrito-logodiv img {
+    width: 12rem;
+    height: 12rem;
+}
+
+.burritoimage-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #fbc9a1;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+/********** FOOTER **********/
+
+footer{
+    background: #faf9f1;
+    width: 100%;
+    display: flex;
+    font-family: acier-bat-solid, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*********** FOOTER ********/
+
+.openhours, .adress, .contact{
+    width: 33.3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0 1rem;
+    font-size: 1.3rem;
+}
+.adress{
+    width: 33.4%;
+}
+
+.header-openhours, .adress-header, .contact-header {
+    display:flex;
+    padding-bottom:  1rem;
+    align-items: center;
+}
+
+.header-openhours i, .adress-header i, .contact-header i {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.header-openhours h3, .adress-header h3, .contact-header h3 {
+    font-size: 2rem;
+}
+
+.content-openhours{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/***** TABLET MODE *****/
+
+@media only screen and (max-width: 1024px){
+
+    .bowlwrapper, .drinkwrapper, .burritowrapper{
+        font-size: 2rem;
+    }
+
+    .bowl-logodiv, .drink-logodiv{
+        display:none;
+    }
+    .burrito-logodiv{
+        display: none;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bowlimage-div {
+        width: 100%;
+        background-image: url(../img/bowltablet.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    .drinkimage-div{
+        width: 100%;
+        background-image: url(../img/drinktablet.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    .burritoimage-div{
+        width:100%;
+        background-image: url(../img/burritotablet.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    #menulogo,#burritologo, #drinklogo{
+        display: block;
+        width: 10rem;
+        height: 10rem;
+    }
+    #burritologo, #drinklogo{
+        padding-bottom: 1.2rem;
+    }
+
+    .logodiv img {
+        height: 30rem;
+        width: 30rem;
+        color: white;
+    }
+    .openhours, .adress, .contact{
+        font-size: 1rem;
+    }
+    .header-openhours i, .adress-header i, .contact-header i {
+        font-size: 1.5rem;
+    }
+    .header-openhours h3, .adress-header h3, .contact-header h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    
+    
+    .logodiv img {
+        height: 20rem;
+        width: 20rem;
+        color: white;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .openhours, .adress, .contact{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+}
