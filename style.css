@@ -57,7 +57,7 @@ header{
 }
 
 .bowl-logodiv, .drink-logodiv{
-    background-image: url('./img/bowl\ img.png');
+    background-image: url(https://mattinnajafi.github.io/bowlNburrito/img/bowl\ img.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
