@@ -56,7 +56,7 @@ header{
     font-size: 2.5rem;
 }
 
-.bowl-logodiv, .drink-logodiv{
+.bowl-logodiv {
     background-image: url(https://mattinnajafi.github.io/bowlNburrito/img/bowl\ img.png);
     background-position: center;
     background-size: cover;
@@ -70,6 +70,15 @@ header{
 }
 .drink-logodiv{
     background-image: url(https://mattinnajafi.github.io/bowlNburrito/img/drinkimg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
 }
 
 .bowl-logodiv img, .drink-logodiv img {
