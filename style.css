@@ -9,7 +9,7 @@
 /***** Main Header *****/
 
 header{
-    background-image: url(../img/creative-headline-F10nTHkCiW8-unsplash.jpg);
+    background-image: url(./img/creative-headline-F10nTHkCiW8-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -57,7 +57,7 @@ header{
 }
 
 .bowl-logodiv, .drink-logodiv{
-    background-image: url(../img/bowl\ img.png);
+    background-image: url(./img/bowl\ img.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -69,7 +69,7 @@ header{
     height: 100%;
 }
 .drink-logodiv{
-    background-image: url(../img/drinkimg.png);
+    background-image: url(./img/drinkimg.png);
 }
 
 .bowl-logodiv img, .drink-logodiv img {
@@ -112,7 +112,7 @@ header{
 }
 
 .burrito-logodiv{
-    background-image: url(../img/footerimg.png);
+    background-image: url(./img/footerimg.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -208,7 +208,7 @@ footer{
     }
     .bowlimage-div {
         width: 100%;
-        background-image: url(../img/bowltablet.png);
+        background-image: url(./img/bowltablet.png);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -217,7 +217,7 @@ footer{
     
     .drinkimage-div{
         width: 100%;
-        background-image: url(../img/drinktablet.png);
+        background-image: url(./img/drinktablet.png);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -226,7 +226,7 @@ footer{
     
     .burritoimage-div{
         width:100%;
-        background-image: url(../img/burritotablet.png);
+        background-image: url(./img/burritotablet.png);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
