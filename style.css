@@ -9,7 +9,7 @@
 /***** Main Header *****/
 
 header{
-    background-image: url(/img/creative-headline-F10nTHkCiW8-unsplash.jpg);
+    background-image: url('/img/creative-headline-F10nTHkCiW8-unsplash.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -57,7 +57,7 @@ header{
 }
 
 .bowl-logodiv, .drink-logodiv{
-    background-image: url(./img/bowl\ img.png);
+    background-image: url('./img/bowl\ img.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
